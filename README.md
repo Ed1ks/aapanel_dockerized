@@ -1,5 +1,5 @@
 # aapanel_dockerized
-[GitHub](https://github.com/Ed1ks/aapanel_docker)
+[GitHub](https://github.com/Ed1ks/aapanel_dockerized)
 
 
 Based on original [aapanel/aapanel:lib](https://hub.docker.com/r/aapanel/aapanel)
