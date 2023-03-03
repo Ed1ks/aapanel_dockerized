@@ -13,8 +13,11 @@ Features:
 
 -> Add /etc, /usr and /sys/fs/cgroup in Volume, so installed apps wont get missing
 
+
 Please check the Dockerfile for exec information.
 
+
 Run following command:
+
 `docker run -dt --name aapanel -p 7820:7800 -v /usr -v /etc -v /sys/fs/cgroup -v aapanel_data:/www ed1k/aapanel:latest`
 
