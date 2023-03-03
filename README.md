@@ -2,7 +2,7 @@
 [GitHub](https://github.com/Ed1ks)
 
 
-Based on original aapanel/aapanel
+Based on original [aapanel/aapanel:lib](https://hub.docker.com/r/aapanel/aapanel)
 
 Fixed dockerized Aapanel
 
