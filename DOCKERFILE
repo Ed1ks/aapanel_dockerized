@@ -1,0 +1,12 @@
+FROM aapanel/aapanel:lib
+ENV DEBIAN_FRONTEND=noninteractive
+ENV MAINTAINER=Ed1k
+
+RUN yum -y update
+
+RUN wget https://raw.githubusercontent.com/Ed1ks/aapanel_docker/main/var/start.sh -O /var/start.sh && chmod +x /var/start.sh
+
+EXPOSE 80 443 21 7800
+
+#Entrypoint
+ENTRYPOINT /var/start.sh
