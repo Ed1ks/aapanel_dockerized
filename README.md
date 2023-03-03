@@ -4,7 +4,9 @@
 [GitHub](https://github.com/Ed1ks/aapanel_dockerized)
 
 Based on original [aapanel/aapanel:lib](https://hub.docker.com/r/aapanel/aapanel) (as of 03-03-2023)
+
 Fixed dockerized Aapanel
+
 Testet and worked on date 03-03-2023
 
 ## Features:
