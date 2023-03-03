@@ -1,6 +1,4 @@
 # aapanel_docker
-Idea using an start.sh is from adam3278/aapanel
-
 Based on original aapanel/aapanel
 
 Fixed dockerized Aapanel
