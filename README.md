@@ -10,7 +10,7 @@ Testet and worked on date 03-03-2023
 
 Features:
 
-* Uses latest aapanel image from [Docker Hub](https://hub.docker.com/).
+* Uses original aapanel image from [Docker Hub](https://hub.docker.com/).
 
 * Creates an startup script to start all services on boot.
 
