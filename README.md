@@ -13,7 +13,8 @@ Testet and worked on date 03-03-2023
 
 * Uses original aapanel image from [Docker Hub](https://hub.docker.com/).
 * Creates an startup script to start all services on boot.
-* Adds /etc, /usr, /sys/fs/cgroup and /www as Volume, so installed apps wont get missed.
+* Creates Volumes, so installed apps wont get missed.
+* Disables false-positives of healthcheck
 
 Please check the Dockerfile for exec information.
 
