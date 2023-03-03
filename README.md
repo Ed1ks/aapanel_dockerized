@@ -31,7 +31,7 @@ username: aapanel
 password: aapanel123
 
 ## Recommended Aapanel setup
-This setup is assuming that you use following setup:
+These steps are assuming that you use following setup:
 * [portainer](https://www.portainer.io/)
 * [nginx-proxy-manager](https://hub.docker.com/r/jc21/nginx-proxy-manager) (npm) as container
 * [Cloudflare](https://www.cloudflare.com/)
