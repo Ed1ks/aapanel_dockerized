@@ -6,8 +6,11 @@ Fixed dockerized Aapanel
 Testet and worked date 03-03-2023
 
 Features:
+
 -> Use latest aapanel image from portainer hub.
+
 -> Create an startup script to start all services on boot.
+
 -> Add /etc, /usr and /sys/fs/cgroup in Volume, so installed apps wont get missing
 
 Please check the Dockerfile for exec information.
