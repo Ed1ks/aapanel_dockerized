@@ -25,7 +25,7 @@ Run following command for instant run:
 
 `docker run -dt --name aapanel -p 7820:7800 -v /usr -v /etc -v /sys/fs/cgroup -v aapanel_data:/www ed1k/aapanel:latest`
 
-security Entry: http://^<your ip^>/aapanel
+security Entry: `http://<your ip>/aapanel`
   
 username: aapanel
   
