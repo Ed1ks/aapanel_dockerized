@@ -52,3 +52,9 @@ If not, your setup might differ.
 13. change Scheme in npm to https:// and save 
 14. now you can login again into aapanel and make your one-click-deplyoment
 15. open ssl-port in phpadmin settings.
+
+
+## Additional Information
+
+One-click deployment doesnt always show the newest versions.
+Phpmyadmin 4.9 for example could be needed to uninstalled so the newer version 5.2 can be installed, else some error could error when opening it.
