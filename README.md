@@ -1,4 +1,7 @@
 # aapanel_docker
+[GitHub](https://github.com/Ed1ks)
+
+
 Based on original aapanel/aapanel
 
 Fixed dockerized Aapanel
@@ -7,11 +10,11 @@ Testet and worked date 03-03-2023
 
 Features:
 
--> Use latest aapanel image from portainer hub.
+* Uses latest aapanel image from portainer hub.
 
--> Create an startup script to start all services on boot.
+* Creates an startup script to start all services on boot.
 
--> Add /etc, /usr and /sys/fs/cgroup in Volume, so installed apps wont get missing
+* Adds /etc, /usr and /sys/fs/cgroup in Volume, so installed apps wont get missing
 
 
 
