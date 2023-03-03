@@ -27,8 +27,8 @@ security Entry: `http://<your ip>:7820/aapanel`
 username: aapanel
 password: aapanel123
 
-## set up aapanel
-This setup is assuming that you use [nginx-proxy-manager](https://hub.docker.com/r/jc21/nginx-proxy-manager) (npm) as container and you want to use it as first proxy and this behind cloudflare.
+## Recommended Aapanel setup
+This setup is assuming that you use [nginx-proxy-manager](https://hub.docker.com/r/jc21/nginx-proxy-manager) (npm) as container and you want to use it as first proxy behind cloudflare.
 If not, your setup might differ.
 1. login to the panel
 2. go to settings and change username and password and save
@@ -37,6 +37,8 @@ If not, your setup might differ.
 5. in npm set your domain as http://, create automaticly your certificate and force ssl.
 6. login in aapanel with your domain
 7. create ssl certificate in cloudflare for your domain
-8. in settings -> security click on "set" at "Panel SSL" and copy here your certificate of cloudflare and save.
+8. in settings -> security click on "set" at "Panel SSL", copy here your certificate from cloudflare and save.
 9. change the "Panel SSL" Trigger in aapanel, even if its already green and save. (Its buggy, as it is not activated)
-10. now you can make your one-click-install at the Dashboard of AApanel
+10. change Scheme in npm to https:// and save 
+11. now you can login again into aapanel and make your one-click-deplyoment
+12. open ssl-port in phpadmin settings.
